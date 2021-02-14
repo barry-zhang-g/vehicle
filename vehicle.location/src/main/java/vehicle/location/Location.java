@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 public class Location {
 	public static void main(String[] args) throws Exception {
+		System.out.println("hot_fix");
 		SpringApplication.run(Location.class, args);
 	}
 }
