@@ -1,0 +1,5 @@
+server:
+  port: 8888
+spring:  application:
+    name: config-server
+  cloud:    config:      server:        git:          uri: https://github.com/barry-zhang-g/vehicle_config.git          search-paths:          - vehicle_config

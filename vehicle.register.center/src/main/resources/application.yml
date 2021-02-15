@@ -1,4 +1,4 @@
 server:
   port: 7001
-spring:  application:    name: location
+spring:  application:    name: register_center
 eureka:  client:    register-with-eureka: false    fetch-registry: false

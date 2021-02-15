@@ -20,6 +20,7 @@
 	<modules>
 		<module>vehicle.register.center</module>
 		<module>vehicle.location</module>
+		<module>vehicle.config.server</module>
 	</modules>
 
 	<dependencyManagement>
