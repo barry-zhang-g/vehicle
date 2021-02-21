@@ -1,0 +1,9 @@
+server:
+  port: 6001
+spring:
+  application:
+    name: car  profiles:    active:    - dev
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8888/
