@@ -1,0 +1,10 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:      defaultZone: http://localhost:7001/eureka
+  instance:    hostname: gateway-service
+spring:  cloud:    gateway:      discovery:        locator:          enabled: true
+      routes:        - id: location_route
+          uri:            lb://location-service
+          predicates:            - Path=/location/getLocation 
