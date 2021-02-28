@@ -22,6 +22,7 @@
 		<module>vehicle.location</module>
 		<module>vehicle.config.server</module>
 		<module>vehicle.car</module>
+		<module>vehicle.gateway</module>
 	</modules>
 
 	<dependencyManagement>

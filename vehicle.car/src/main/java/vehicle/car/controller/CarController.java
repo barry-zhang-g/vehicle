@@ -57,4 +57,10 @@ public class CarController {
 		System.out.println("param:" + param);
 		return carService.getLocation();
 	}
+	
+	@GetMapping(value = "/getCarInfo")
+	public String getCarInfo(@RequestParam("id") String param) {
+		return carService.getCarInfo(param);
+	}
+
 }
