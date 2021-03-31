@@ -23,6 +23,8 @@
 		<module>vehicle.config.server</module>
 		<module>vehicle.car</module>
 		<module>vehicle.gateway</module>
+		<module>vehicle.message.producer</module>
+		<module>vehicle.message.consumer</module>
 	</modules>
 
 	<dependencyManagement>
